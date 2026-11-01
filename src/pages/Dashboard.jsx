@@ -24,7 +24,7 @@ export default function Dashboard() {
   const todo = mine.filter((t) => t.status === "Todo").length;
   const heading =
     user.role === "admin"
-      ? "Good morning, Alex"
+      ? "Good morning, Ankur"
       : `Welcome back, ${user.name.split(" ")[0]}`;
   const subheading =
     user.role === "admin"
